@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "762564339767",
+    "firebase_url": "https://iconference-e13a1.firebaseio.com",
+    "project_id": "iconference-e13a1",
+    "storage_bucket": "iconference-e13a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:762564339767:android:bf712841ec6bd659",
+        "android_client_info": {
+          "package_name": "ae.businessdna.iconference"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "762564339767-hisfu533qk6caha7qgmshg9cbsuidlji.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPK1E6BKWFYq7snMqMTEr8e5blAkBnu34"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

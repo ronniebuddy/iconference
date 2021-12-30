@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="ae.businessdna.iconference"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <application
+        android:name="ae.businessdna.iconference.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="ae.businessdna.iconference.activities.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask" >
+            <intent-filter>
+
+                <!-- <action android:name="android.intent.action.VIEW" /> -->
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ae.businessdna.iconference.activities.SettingsActivity"
+            android:label="" />
+
+        <!-- <activity -->
+        <!-- android:name="com.microsoft.identity.client.BrowserTabActivity"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.VIEW" /> -->
+        <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+        <!-- <category android:name="android.intent.category.BROWSABLE" /> -->
+
+
+        <!-- &lt;!&ndash;Add in your scheme/host from registered redirect URI&ndash;&gt; -->
+        <!-- &lt;!&ndash;By default, the scheme should be similar to 'msal[appId]' &ndash;&gt; -->
+        <!-- &lt;!&ndash;<data android:scheme="msal3f3fac4b-df42-4c06-9ced-ed7280a8218f"&ndash;&gt; -->
+        <!-- &lt;!&ndash;android:host="auth" />&ndash;&gt; -->
+        <!-- <data android:scheme="msalf882194e-6340-49cb-be25-61ce4b9f4920" -->
+        <!-- android:host="auth" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+
+        <service
+            android:name="ae.businessdna.iconference.service.KioskService"
+            android:exported="false" />
+
+        <receiver
+            android:name="ae.businessdna.iconference.receiver.MeetingReceiver"
+            android:exported="false" />
+        <receiver
+            android:name="ae.businessdna.iconference.receiver.BootReceiver"
+            android:enabled="true"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="ae.businessdna.iconference.receiver.MyAdminReceiver"
+            android:description="@string/device_admin_description"
+            android:label="@string/device_admin"
+            android:permission="android.permission.BIND_DEVICE_ADMIN" >
+            <meta-data
+                android:name="android.app.device_admin"
+                android:resource="@xml/device_admin" />
+
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+                <!-- <action android:name="android.app.action.PROFILE_PROVISIONING_COMPLETE"/> -->
+            </intent-filter>
+        </receiver>
+        <!-- <meta-data -->
+        <!-- android:name="io.fabric.ApiKey" -->
+        <!-- android:value="87103e6b55896b179bd9fcbbf7a89b3d7cb00f50" /> -->
+    </application>
+
+</manifest>

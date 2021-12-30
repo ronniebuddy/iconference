@@ -1,0 +1,46 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~ Copyright (c) Xandar IP 2013.
+4  ~
+5  ~ All Rights Reserved
+6  ~ No part of this application may be reproduced, copied, modified or adapted, without the prior written consent
+7  ~ of the author, unless otherwise indicated for stand-alone materials.
+8  ~
+9  ~ Contact support@xandar.com.au for copyright requests.
+10-->
+11<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+12    package="ch.acra.acra"
+13    android:versionCode="1"
+14    android:versionName="1.0" >
+15    <!--
+16        Version API Name
+17        6.0     23  Marshmallow
+18        5.0     21  Lollipop
+19        4.4W    20  KitKat Watch
+20        4.4.2   19  KitKat
+21        4.3     18
+22        4.2     17
+23        4.1     16  Jelly Bean
+24        4.0.3   15
+25        4.0     14  Ice Cream Sandwich
+26        3.2     13
+27        3.1.X   12
+28        3.0     11  Honeycomb
+29        2.3.3   10  Gingerbread
+30        2.3     9
+31        2.2     8   Froyo
+32        2.1     7   Eclair
+33        2.0.1   6
+34        2.0     5
+35        1.6     4   Donut
+36        1.5     3   Cupcake
+37        1.1     2
+38        1.0     1
+39    -->
+40    <uses-sdk
+41        android:minSdkVersion="4"
+41-->D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\acra\src\main\AndroidManifest.xml
+42        android:targetSdkVersion="23" />
+42-->D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\acra\src\main\AndroidManifest.xml
+43
+44</manifest>

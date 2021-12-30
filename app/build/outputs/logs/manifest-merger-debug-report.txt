@@ -1,0 +1,167 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:2:1-95:12
+INJECTED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:2:1-95:12
+INJECTED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:2:1-95:12
+INJECTED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:2:1-95:12
+INJECTED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:2:1-95:12
+INJECTED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:2:1-95:12
+INJECTED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:2:1-95:12
+	package
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:4:5-41
+		INJECTED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml
+		INJECTED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:2:1-95:12
+		INJECTED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:2:1-95:12
+		INJECTED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:6:5-78
+	android:name
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.INTERNET
+ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:7:5-66
+	android:name
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:8:5-75
+	android:name
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:8:22-72
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:9:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:10:22-78
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:11:22-75
+uses-permission#android.permission.GET_TASKS
+ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:12:22-65
+application
+ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:14:5-93:19
+	android:supportsRtl
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:19:9-35
+	android:label
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:17:9-41
+	android:roundIcon
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:18:9-54
+	android:icon
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:16:9-43
+	android:allowBackup
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:15:9-35
+	android:theme
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:20:9-40
+	android:name
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:21:9-38
+activity#ae.businessdna.iconference.activities.MainActivity
+ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:22:9-33:20
+	android:label
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:24:13-45
+	android:launchMode
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:25:13-44
+	android:name
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:23:13-52
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.HOME+category:name:android.intent.category.LAUNCHER
+ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:26:13-32:29
+action#android.intent.action.MAIN
+ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:29:27-74
+category#android.intent.category.HOME
+ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:30:17-73
+	android:name
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:30:27-70
+category#android.intent.category.DEFAULT
+ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:31:17-76
+	android:name
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:31:27-73
+activity#ae.businessdna.iconference.activities.SettingsActivity
+ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:35:9-37:32
+	android:label
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:37:13-29
+	android:name
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:36:13-56
+service#ae.businessdna.iconference.service.KioskService
+ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:55:9-57:40
+	android:exported
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:57:13-37
+	android:name
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:56:13-49
+receiver#ae.businessdna.iconference.receiver.MeetingReceiver
+ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:59:9-60:39
+	android:exported
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:60:13-37
+	android:name
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:59:19-59
+receiver#ae.businessdna.iconference.receiver.BootReceiver
+ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:62:9-72:20
+	android:enabled
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:64:13-35
+	android:permission
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:65:13-75
+	android:name
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:63:13-76
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.QUICKBOOT_POWERON+category:name:android.intent.category.DEFAULT
+ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:66:13-71:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:67:17-79
+	android:name
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:67:25-76
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:68:17-82
+	android:name
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:68:25-79
+receiver#ae.businessdna.iconference.receiver.MyAdminReceiver
+ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:74:9-89:20
+	android:label
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:76:13-49
+	android:permission
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:78:13-70
+	android:description
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:77:13-67
+	android:name
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:75:13-79
+meta-data#android.app.device_admin
+ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:81:13-82:56
+	android:resource
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:82:17-53
+	android:name
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:81:24-63
+intent-filter#action:name:android.app.action.DEVICE_ADMIN_ENABLED
+ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:85:13-88:29
+action#android.app.action.DEVICE_ADMIN_ENABLED
+ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:86:17-82
+	android:name
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml:86:25-79
+uses-sdk
+INJECTED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml
+INJECTED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml
+INJECTED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml
+INJECTED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml
+		INJECTED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml
+		ADDED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml
+		INJECTED from D:\BDNA_PROJECTS-ANDROID_STUDIO\ACTIVE\MicrosoftGraphTest\iConference\app\src\main\AndroidManifest.xml

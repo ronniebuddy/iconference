@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<PreferenceCategory android:title="@string/service_url">-->
+
+        <!--<EditTextPreference-->
+            <!--android:defaultValue="@string/pref_service_default"-->
+            <!--android:key="pref_webservice_url"-->
+            <!--android:summary="@string/pref_webservice_summary"-->
+            <!--android:title="@string/service_url"-->
+            <!--android:imeOptions="actionDone"/>-->
+    <!--</PreferenceCategory>-->
+
+    <!--<PreferenceCategory android:title="@string/email">-->
+
+        <!--<EditTextPreference-->
+            <!--android:defaultValue="@string/pref_email_default"-->
+            <!--android:key="pref_email"-->
+            <!--android:summary="@string/pref_email_summary"-->
+            <!--android:title="@string/pref_email_title"-->
+            <!--android:inputType="text"-->
+            <!--android:imeOptions="actionDone"/>-->
+
+    <!--</PreferenceCategory>-->
+
+    <PreferenceCategory android:title="@string/app_id">
+
+        <EditTextPreference
+            android:defaultValue="@string/pref_email_default"
+            android:key="pref_app_id"
+            android:summary="@string/pref_app_id_summary"
+            android:title="@string/pref_app_id_title"
+            android:inputType="text"
+            android:imeOptions="actionDone"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/room">
+
+        <EditTextPreference
+            android:defaultValue="@string/pref_email_default"
+            android:key="pref_room"
+            android:summary="@string/pref_room_summary"
+            android:title="@string/pref_room_title"
+            android:inputType="text"
+            android:imeOptions="actionDone"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/fetch_freq">
+
+        <EditTextPreference
+            android:defaultValue="@string/pref_email_default"
+            android:key="pref_freq"
+            android:summary="@string/pref_fetch_freq_summary"
+            android:title="@string/pref_fetch_freq_title"
+            android:inputType="number"
+            android:imeOptions="actionDone"/>
+
+    </PreferenceCategory>
+
+    <!--<PreferenceCategory android:title="@string/company_id" >-->
+        <!--<EditTextPreference-->
+            <!--android:title="@string/company_id"-->
+            <!--android:summary="@string/company_id_summary"-->
+            <!--android:defaultValue="@string/pref_default"-->
+            <!--android:key="pref_company_id"/>-->
+    <!--</PreferenceCategory>-->
+
+    <!--<PreferenceCategory android:title="@string/room_id" >-->
+        <!--<EditTextPreference-->
+            <!--android:title="@string/room_id"-->
+            <!--android:summary="@string/room_id_summary"-->
+            <!--android:defaultValue="@string/pref_default"-->
+            <!--android:key="pref_room_id"/>-->
+    <!--</PreferenceCategory>-->
+
+    <PreferenceCategory android:title="@string/kiosk" >
+        <!--<EditTextPreference-->
+            <!--android:title="@string/floor_id"-->
+            <!--android:summary="@string/floor_id_summary"-->
+            <!--android:defaultValue="@string/pref_default"-->
+            <!--android:key="pref_floor_id" />-->
+
+        <SwitchPreference
+            android:persistent="true"
+            android:defaultValue="false"
+            android:key="@string/pref_key_kiosk_mode"
+            android:summary="@string/pref_summary_customer_kiosk_mode"
+            android:title="@string/pref_title_customer_kiosk_mode" />
+    </PreferenceCategory>
+</PreferenceScreen>
